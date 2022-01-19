@@ -19,7 +19,8 @@ allUsers.forEach(user => {
       Item: {
         "username": user.username,
         "createdAt": user.createdAt,
-        "thought": user.thought
+        "thought": user.thought,
+       
       }
     };
   //   make a call to the database with the service interface object
